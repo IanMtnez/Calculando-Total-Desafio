@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío 1 - JavaScript</title>
+    <link rel="stylesheet" href="./assets/css/estilos.css" />
+</head>
+
+<body>
+    <main class="contenedor">
+        <section class="card">
+            <div class="img-card"></div>
+            <img class="producto-img" src="https://media.solotodo.com/media/products/1063321_picture_1580350946.jpg"
+                alt="Laptop Gamer AMD" />
+            <h2>Laptop Gamer AMD</h2>
+            <p class="precio">Precio base: $<span class="precio-inicial"></span></p>
+            <div class="cantidad-container">
+                <label for="cantidad">Cantidad:</label>
+                <div class="botonera">
+                    <button class="boton boton-menos">-</button>
+                    <span class="cantidad">0</span>
+                    <button class="boton boton-mas">+</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="total-section">
+            <p>Total a pagar: $<span class="valor-total">0</span></p>
+        </section>
+    </main>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
